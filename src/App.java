@@ -66,8 +66,14 @@ public class App {
         for(int i =0; i< 5; i+=2){
             System.out.println(i);
         }
-    }    
+    }
+    
+    public static void forloop2() throws Exception {
+        for(int i =0; i< 5; i+=5){
+            System.out.println(i);
+        }
+    }
     public static void main(String[] args) throws Exception {
-        forloop1();
+        forloop2();
     }
 }
