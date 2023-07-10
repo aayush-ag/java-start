@@ -170,11 +170,17 @@ public class App {
         int b = 10;
         System.out.print(add(a,b));
     }*/
+    
+    public static void SwapFunction(int a, int b){
+        System.out.println("Before swapping, a = " + a + " b = " + b);
+        int c = a;
+        a = b;
+        b = c;
+        System.out.println("After swapping, a = " + a + " b = " + b);
+    }
     public static void main(String[] args) throws Exception {
-        App obj = new App();
         int x = 10;
         int y = 20;
-        int get_result = obj.add(x, y);
-        System.out.println(get_result);
+        SwapFunction(x, y);
     }
 }
