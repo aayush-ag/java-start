@@ -138,12 +138,29 @@ public class App {
         }
         for(int i=0;i<3;i++){
             for(int j=0;j<i;j++){
-                System.out.println(a[i][j] + " ");
+                System.out.print(a[i][j] + " ");
+            }
+            System.out.print('\n');    
+        }        
+    }
+    
+    public static void array_4() throws Exception{
+        int a [][] = new int[3][3];
+        int num = 0;
+        for(int i=0;i<3;i++){
+            for(int j=0;j<i;j++){
+                a[i][j] = num;
+                ++num;
+            }    
+        }
+        for(int i=0;i<3;i++){
+            for(int j=0;j<i;j++){
+                System.out.print(a[i][j] + " ");
             }
             System.out.print('\n');    
         }        
     }
     public static void main(String[] args) throws Exception {
-        array_3();
+        array_4();
     }
 }
