@@ -55,7 +55,13 @@ public class App {
             ++num;
         }
     }
+    
+    public static void forloop() throws Exception {
+        for(int i =0; i< 5; i++){
+            System.out.println(i);
+        }
+    }
     public static void main(String[] args) throws Exception {
-        whileloop();
+        forloop();
     }
 }
