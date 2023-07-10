@@ -102,7 +102,36 @@ public class App {
             System.out.println(a[i]);
         }
     }
+
+    public static void array_2() throws Exception{
+        int[] a = new int[10];
+        int[] b = new int[10];
+        int[] c = new int[10];
+
+        for(int i=0;i<10;i++){
+            a[i]=i;
+            b[i]=2*i;
+            c[i]=3*i;
+        }
+        System.out.println("Value of Array A is:");
+        for(int i=0;i<10;i++){
+            System.out.print(a[i]);
+            System.out.print(" ");
+        }
+        System.out.println();
+        System.out.println("Value of Array B is:");
+        for(int i=0;i<10;i++){
+            System.out.print(b[i]);
+            System.out.print(" ");
+        }
+        System.out.println();
+        System.out.println("Value of Array C is:");
+        for(int i=0;i<10;i++){
+            System.out.print(c[i]);
+            System.out.print(" ");
+        }
+    }
     public static void main(String[] args) throws Exception {
-        array_1();
+        array_2();
     }
 }
