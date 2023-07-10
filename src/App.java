@@ -1,8 +1,8 @@
 public class App {
-    public static void Hello(String[] args) throws Exception {
+    public static void Hello() throws Exception {
         System.out.println("Hello, World!");
     }
-    public static void main(String[] args) throws Exception {
+    public static void marks() throws Exception {
         int marks = 85;
         if(marks < 50){
             System.out.println("fail");
@@ -25,5 +25,21 @@ public class App {
         else{
             System.out.println("Invalid");
         }
+    }
+    
+    public static void num_check() throws Exception {
+        int number = -13;
+        if(number>0){
+            System.out.println("POSITIVE");
+        }
+        else if(number<0){
+            System.out.println("NEGATIVE");
+        }
+        else{
+            System.out.println("ZERO");
+        }
+    }
+    public static void main(String[] args) throws Exception {
+        num_check();
     }
 }
