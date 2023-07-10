@@ -2,6 +2,7 @@ public class App {
     public static void Hello() throws Exception {
         System.out.println("Hello, World!");
     }
+    
     public static void marks() throws Exception {
         int marks = 85;
         if(marks < 50){
@@ -82,6 +83,10 @@ public class App {
             }
             System.out.println();
         }
+    }
+    
+    public static void operator_1() throws Exception {
+    
     }
     public static void main(String[] args) throws Exception {
         pattern();
