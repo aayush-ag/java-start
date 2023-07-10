@@ -47,7 +47,15 @@ public class App {
         c = a+b;
         System.out.println("c is: " + c);
     }
+    
+    public static void whileloop() throws Exception {
+        int num =0;
+        while(num<=5){
+            System.out.println(num);
+            ++num;
+        }
+    }
     public static void main(String[] args) throws Exception {
-        sum();
+        whileloop();
     }
 }
