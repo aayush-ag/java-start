@@ -161,15 +161,20 @@ public class App {
         }        
     }
 
-    public static int add(int a, int b){
+    public int add(int a, int b){
         return a+b;
     }
-    public static void call_sum() throws Exception{
+    
+    /*public static void call_sum() throws Exception{
         int a = 5;
         int b = 10;
         System.out.print(add(a,b));
-    }
+    }*/
     public static void main(String[] args) throws Exception {
-        call_sum();
+        App obj = new App();
+        int x = 10;
+        int y = 20;
+        int get_result = obj.add(x, y);
+        System.out.println(get_result);
     }
 }
