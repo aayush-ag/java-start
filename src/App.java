@@ -113,22 +113,17 @@ public class App {
             b[i]=2*i;
             c[i]=3*i;
         }
-        System.out.println("Value of Array A is:");
+        System.out.print("Value of Array A is:");
         for(int i=0;i<10;i++){
-            System.out.print(a[i]);
-            System.out.print(" ");
+            System.out.print(a[i] + " ");
         }
-        System.out.println();
-        System.out.println("Value of Array B is:");
+        System.out.print("\nValue of Array B is:");
         for(int i=0;i<10;i++){
-            System.out.print(b[i]);
-            System.out.print(" ");
+            System.out.print(b[i] + " ");
         }
-        System.out.println();
-        System.out.println("Value of Array C is:");
+        System.out.print("\nValue of Array C is:");
         for(int i=0;i<10;i++){
-            System.out.print(c[i]);
-            System.out.print(" ");
+            System.out.print(c[i] + " ");
         }
     }
     public static void main(String[] args) throws Exception {
