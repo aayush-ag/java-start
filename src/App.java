@@ -39,7 +39,15 @@ public class App {
             System.out.println("ZERO");
         }
     }
+    
+    public static void sum() throws Exception{
+        float a = 3.14f;
+        float b = 4.1f;
+        float c = 0;
+        c = a+b;
+        System.out.println("c is: " + c);
+    }
     public static void main(String[] args) throws Exception {
-        num_check();
+        sum();
     }
 }
