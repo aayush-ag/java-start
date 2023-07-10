@@ -90,7 +90,19 @@ public class App {
         boolean b = false;
         System.out.println(a && b);
     }
+
+    public static void array_1() throws Exception{
+        int[] a = new int[10];
+
+        for(int i=0;i<10;i++){
+            a[i]=i;
+        }
+
+        for(int i=0;i<10;i++){
+            System.out.println(a[i]);
+        }
+    }
     public static void main(String[] args) throws Exception {
-        operator_1();
+        array_1();
     }
 }
