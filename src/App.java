@@ -178,9 +178,21 @@ public class App {
         b = c;
         System.out.println("After swapping, a = " + a + " b = " + b);
     }
+
+    public static int area(int n1, int n2){
+        int result = n1*n2;
+        return result;
+    }
+    
+    public static float area(int n){
+        float result = 3.14f*n*n;
+        return result;
+    }
     public static void main(String[] args) throws Exception {
         int x = 10;
         int y = 20;
-        SwapFunction(x, y);
+        System.out.println(area(x, y));
+        System.out.println(area(x));
+        System.out.println(area(y));
     }
 }
