@@ -88,7 +88,7 @@ public class App {
     public static void operator_1() throws Exception {
         boolean a = true;
         boolean b = false;
-        System.out.println(a || b);
+        System.out.println(a && b);
     }
     public static void main(String[] args) throws Exception {
         operator_1();
