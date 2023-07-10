@@ -126,7 +126,24 @@ public class App {
             System.out.print(c[i] + " ");
         }
     }
+    
+    public static void array_3() throws Exception{
+        int a [][] = new int[3][3];
+        int num = 0;
+        for(int i=0;i<3;i++){
+            for(int j=0;j<i;j++){
+                a[i][j] = num;
+                ++num;
+            }    
+        }
+        for(int i=0;i<3;i++){
+            for(int j=0;j<i;j++){
+                System.out.println(a[i][j] + " ");
+            }
+            System.out.print('\n');    
+        }        
+    }
     public static void main(String[] args) throws Exception {
-        array_2();
+        array_3();
     }
 }
