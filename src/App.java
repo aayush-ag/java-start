@@ -16,8 +16,11 @@ public class App {
         else if (marks >= 75 && marks < 90){
             System.out.println("B grade");
         }
-        else if (marks >= 90 && marks <= 100){
+        else if (marks >= 90 && marks < 100){
             System.out.println("A+ grade");
+        }
+        else if (marks == 100){
+            System.out.println("Full Marks");
         }
         else{
             System.out.println("Invalid");
